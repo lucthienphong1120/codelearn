@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.wrap-right, .wrap-left {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 1200px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 5px #999;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 22px 5px;
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: #2c31cf;
+    border-bottom: 2px solid #2c31cf;
+}
+
+.language img, .user img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+#pre {
+    height: 165px;
+    background-color: #1e2a55;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+#pre h2 {
+    color: #fff;
+    font-size: 28px;
+}
+
+#pre input {
+    margin-top: 20px;
+    padding: 12px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#body {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    padding: 20px 0 40px;
+}
+
+.course-heading {
+    color: #555;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-list img {
+    object-fit: cover;
+}
+
+.course-item {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 40px 0;
+}
+
+#footer .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main {
+    width: 555px;
+}
+
+.footer-main img {
+    cursor: pointer;
+}
+
+.footer-main p {
+    color: #555;
+    margin: 20px 0 15px;
+    font-size: 15px;
+    padding-right: 100px;
+}
+
+.footer-col {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col-heading {
+    color: #2c31cf;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.footer-col-link {
+    color: #555;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+.footer-col-link:hover {
+    color: #2c31cf;
+}
+
+.copyright {
+    background-color: #1c1d31;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.copyright img {
+    width: 40px;
+    position: absolute;
+    left: 34%;
+}
+
+.game-banner {
+    margin-top: 70px;
+    overflow: hidden;
+    height: 264px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 60px;
+}
+
+.game-list img {
+    width: 350px;
+    margin: 0 20px;
+    cursor: pointer;
+}
